@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="../styles.css">
+      <link rel="shortcut icon" type="image/x-icon" href="../picture/ryux_1.ico" />
+      <meta name="viewport" content="width=1024">
+      <title>RyuX</title>
+    </head>
+    <body>
+        <nav id='menu'>
+          <input type='checkbox' id='responsive-menu'><label></label>
+          <ul>
+            <li><a href='../index.html'>Home</a></li>
+            <li><a href='https://instagram.com/muhraihan002_'>Contact Developer</a></li>
+          </ul>
+        </nav>
+        <div class="RyuX">
+          <p><span>Hello i RyuX i ready to help you</span></p>
+          <p><span>Just let me know what do you need with enter prompt below</span></p>
+        </div>
+        <div class="question">
+            <input id="question" type="text" placeholder="Enter prompt here">
+            <button id="submit"><img src="../picture/send.png"></button>
+            <div id="loading"></div>
+        </div>
+      	  <div id="popup" class="popup">
+            <div class="popup-content">
+        		  <span class="close" id="close-button">&times;</span>
+        			<h2 id="title-message"></h2>
+        			<p id="message-about"></p>
+    					</div>
+					</div>
+        <div class="answer">
+          <p><span id="answer"></span></p>
+          <div class="reset">
+            <button id="reset"><img src="../picture/delete.png"></button>
+            <button id="new" type="submit"><img src="../picture/regenerate.png"></button>
+            <button id="recognition"><img src="../picture/gambar.png"></button>
+          </div>
+          <div id="body-image"></div>
+        </div>
+        <script type="module" src="../script.js"></script>
+    </body>
+</html>
